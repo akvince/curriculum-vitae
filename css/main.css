@@ -102,7 +102,7 @@ section{
   font-family: roboto, sans-serif;
   text-align: left;
   margin: 50px 50px 50px 50px;
-  border: 1px solid ##16a085;
+  border: 1px solid #16a085;
   box-shadow: 5px 5px 5px lightgray;
   background-color: #1abc9c;
   padding-left: 15px;
@@ -113,6 +113,11 @@ section{
 
 .presentation{
 
+}
+.photo{
+  float: right;
+  border: 2px solid #16a085;
+  border-radius: 3px;
 }
 .presentation h1{
   color: #007887;
