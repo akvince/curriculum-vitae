@@ -103,9 +103,10 @@ section{
   text-align: left;
   margin: 50px 50px 50px 50px;
   border: 1px solid ##16a085;
-  box-shadow: 5px 5px 5px #F5F5F5;
+  box-shadow: 5px 5px 5px lightgray;
   background-color: #1abc9c;
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-right: 50px;
   padding-bottom: 50px;
   padding-top: 10px;
 }
