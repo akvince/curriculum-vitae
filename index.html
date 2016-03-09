@@ -10,10 +10,18 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/main.css">
+
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -25,9 +33,9 @@
     <!-- Add your site or application content here -->
 
     <section>
-      <article class="photo">
-        <img src="img/photo.jpg" alt="photo portrait" height="200px" width="200px" />
-      </article>
+        <article class="photo">
+            <img src="img/photo.jpg" alt="photo portrait" height="200px" width="200px" />
+        </article>
         <article class="presentation">
             <h4> Vincent DEFLANDRE
                 <br> 47 rue Ingres
@@ -39,33 +47,76 @@
         </article>
         <article class="Competence">
             <h1>Compétence :</h1>
-            <h2>Git : <progress max="100" value="80" form="form-id">80%</progress></h2>
-            <h2>Unix : <progress max="100" value="80" form="form-id">80%</progress></h2>
-            <h2>HTML : <progress max="100" value="80" form="form-id">80%</progress></h2>
-            <h2>Bootstrap : <progress max="100" value="60" form="form-id">60%</progress></h2>
-            <h2>CSS : <progress max="100" value="80" form="form-id">80%</progress></h2>
-            <h2>javascript : <progress max="100" value="50" form="form-id">50%</progress></h2>
-            <h2>Meteor.js : <progress max="100" value="30" form="form-id">30%</progress></h2>
-            <h2>Ruby : <progress max="100" value="30" form="form-id">30%</progress></h2>
-            <h2>Rails : <progress max="100" value="30" form="form-id">30%</progress></h2>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    Git
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    Unix
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    HTML
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    Bootstrap
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    CSS
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    Javascript
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                    Meteor.JS
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                    Ruby
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                    Rails
+                </div>
+            </div>
         </article>
         <article class="experiences">
             <h1>Expériences professionnelles :</h1>
-            <h2>Mai 2015 </h2><p>Commercial sédentaire pour com'plus à Roubaix : Vente d'offre promotionnel et additionnel</p>
-            <h2>02/2014 – 02/2015</h2><p>Téléopérateur pour Pôle-emploi Plateforme Services A Distance Villeneuve d’Ascq : Traitement des appels d’inscriptions et des rendez vous recours, traitement des flux web </p>
-            <h2>2011 - 2013</h2><p>Manutentionnaire pour Camaieu à Roubaix : Stockage, prélèvement, préparation de commande, insertion sur machines, expédition</p>
-            <h2>2009 et 2010</h2><p>service informatique de la Faculté de pharmacie Lille2 : dépannage micro informatique, mise en place d'une salle informatique, baie de brassage, accueil étudiants et personnels</p>
+            <h2>Mai 2015 </h2>
+            <p>Commercial sédentaire pour com'plus à Roubaix : Vente d'offre promotionnel et additionnel</p>
+            <h2>02/2014 – 02/2015</h2>
+            <p>Téléopérateur pour Pôle-emploi Plateforme Services A Distance Villeneuve d’Ascq : Traitement des appels d’inscriptions et des rendez vous recours, traitement des flux web </p>
+            <h2>2011 - 2013</h2>
+            <p>Manutentionnaire pour Camaieu à Roubaix : Stockage, prélèvement, préparation de commande, insertion sur machines, expédition</p>
+            <h2>2009 et 2010</h2>
+            <p>service informatique de la Faculté de pharmacie Lille2 : dépannage micro informatique, mise en place d'une salle informatique, baie de brassage, accueil étudiants et personnels</p>
         </article>
         <article class="formations">
             <h1>Formations : </h1>
-            <h2>2016</h2><p>formation developeur web et mobile, Simplon, Adep de Roubaix</p>
-            <h2>2010</h2><p>Bac professionnel MRIM : Micro-informatique, Réseau : Installation et Maintenance au lycée professionnel St Rémi, Roubaix</p>
-            <h2>2008</h2><p>BEP métiers de l'électricité au lycée professionnel St Rémi, Roubaix</p>
+            <h2>2016</h2>
+            <p>formation developeur web et mobile, Simplon, Adep de Roubaix</p>
+            <h2>2010</h2>
+            <p>Bac professionnel MRIM : Micro-informatique, Réseau : Installation et Maintenance au lycée professionnel St Rémi, Roubaix</p>
+            <h2>2008</h2>
+            <p>BEP métiers de l'électricité au lycée professionnel St Rémi, Roubaix</p>
         </article>
         <article class="activites">
             <h1>Activités extra-professionnelles : </h1>
             <p>
-              photographie, vélo, nouvelles technologies, jeux vidéo
+                photographie, vélo, nouvelles technologies, jeux vidéo
             </p>
         </article>
     </section>
