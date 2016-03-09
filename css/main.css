@@ -104,7 +104,7 @@ section{
   margin: 50px 50px 50px 50px;
   border: 1px solid #7f8c8d;
   box-shadow: 5px 5px 5px lightgray;
-  background-image:url(../img/minecraft.png);
+  background-color: #95a5a6;
   padding-left: 15px;
   padding-right: 50px;
   padding-bottom: 50px;
@@ -117,12 +117,11 @@ section{
 }
 
 .formations{
-  background-image:url(../img/minesand.jpg);
+  /*background-color: #95a5a6;*/
 }
 
 .experiences{
-  background-image:url(../img/minesand.jpg);
-  color: green;
+  /*background-color: #e74c3c;*/
   padding: 10px;
 }
 .photo{
@@ -133,7 +132,12 @@ section{
   color: #007887;
   font-size: 4em;
 }
+.activites p{
+}
+p{
+  font-size: 1.5em;
 
+}
 
 
 
